@@ -23,7 +23,7 @@ int main(){
     int cy = 20;
     double t = 0.0;
     Vec2 velocity = {0,0};
-    Vec2 position = {10, 0};
+    Vec2 position = {60, 0};
     const std::chrono::milliseconds FrameDuration(1000/frames_per_seconds);
     while(true){
 

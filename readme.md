@@ -9,7 +9,7 @@ The goal of the project is to experiment with software rendering, vector math, a
 
 ---
 
-Features:
+## Features:
 
 - ASCII / terminal rendering
 
@@ -24,21 +24,21 @@ Features:
 - Squares
 
 
-Animation examples:
+## Animation examples:
 
 - Rotating triangle
-
+![triangle](src/demos/rotating_triangle.gif)
 - Pulsing circle
-
+![circle](src/demos/circle.gif)
 - Bouncing square with gravity
-
+![square](src/demos/bouncing_square.gif)
 - Compile-time configuration using macros
 
 - Fixed frame timing
 
 ---
 
-Project Structure
+## Project Structure
 ```
 .
 ├── makefile
@@ -51,7 +51,7 @@ Project Structure
 ```
 ---
 
-Requirements
+## Requirements
 
 - C++17 compatible compiler
 - g++ or clang
@@ -83,11 +83,11 @@ or
 
 ---
 
-Compile-Time Options
+## Compile-Time Options
 
 The program uses preprocessor macros to enable different animations or change physics parameters.
 
-Enable animations
+### Enable animations
 
 -DROTATING_TRIANGLE
 -DCIRCLE
@@ -100,7 +100,7 @@ make CXXFLAGS="-std=c++17 -DROTATING_TRIANGLE"
 
 ---
 
-Physics parameters
+## Physics parameters
 
 These values can be changed during compilation:
 
@@ -118,7 +118,7 @@ make CXXFLAGS="-std=c++17 -DBOUNCING_SQUARE -DGRAVITY=0.7 -DFRAME=30"
 
 ---
 
-How It Works
+## How It Works
 
 The program runs a main loop:
 
@@ -144,7 +144,7 @@ This creates a stable frame rate simulation.
 
 ---
 
-Learning Goals
+## Learning Goals
 
 This project is designed to explore:
 

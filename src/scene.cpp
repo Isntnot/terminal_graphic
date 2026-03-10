@@ -199,7 +199,7 @@ void Scene::draw(){
             render_pixel(pixel.pos.x, pixel.pos.y, pixel.color);
         }
     }
-    std::cout << "\033[?25l";
+    std::cout << "\033[?25h";
     std::cout.flush();
     pixels.clear();
 }
