@@ -31,11 +31,17 @@ The goal of the project is to experiment with software rendering, vector math, a
 ## Animation examples:
 
 - Rotating triangle
+- 
 ![triangle](src/demos/rotating_triangle.gif)
+
 - Pulsing circle
+  
 ![circle](src/demos/circle.gif)
+
 - Bouncing square with gravity
+  
 ![square](src/demos/bouncing_square.gif)
+
 - Compile-time configuration using macros
 
 - Fixed frame timing
