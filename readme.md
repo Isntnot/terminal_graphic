@@ -1,5 +1,9 @@
 # ASCII Scene Renderer
 
+![C++](https://img.shields.io/badge/language-C++-blue)
+![Build](https://img.shields.io/badge/build-make-green)
+![License](https://img.shields.io/badge/license-MIT-purple)
+
 >A small C++ terminal renderer that draws simple geometric shapes using a custom scene system.
 
 The program simulates basic animations such as 
@@ -157,3 +161,6 @@ This project is designed to explore:
 - Simple physics simulation
 
 - C++ modular design
+
+## License
+This project is licensed under the MIT License.
