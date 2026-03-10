@@ -1,4 +1,4 @@
-# ASCII Scene Renderer
+# Terminal Graphic
 
 ![C++](https://img.shields.io/badge/language-C++-blue)
 ![Build](https://img.shields.io/badge/build-make-green)
